@@ -1,9 +1,10 @@
 import React from 'react';
+import Cover from './Cover'
 
 export default function Head() {
     return (
-        <div className='h-[2000px]'>
-            Head
+        <div className='pt-[56px]'>
+            <Cover></Cover>
         </div>
     );
 }

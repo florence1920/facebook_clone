@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Nav() {
     return (
-        <div className='fixed w-full flex justify-between py-2 h-14 drop-shadow bg-white'>
+        <div className='fixed z-10 w-full flex justify-between py-2 h-14 drop-shadow bg-white'>
             <div className='flex'>
                 <img className='mx-4 w-10' src="/images/facebook.png" alt="logo" />
                 <div className="w-[280px] relative">
